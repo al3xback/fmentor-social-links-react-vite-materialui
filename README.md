@@ -12,7 +12,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: https://al3xback.github.io/fmentor-social-links-react-vite-joyui/
+- Live Site URL: https://al3xback.github.io/fmentor-social-links-react-vite-materialui/
 
 ## My process
 
