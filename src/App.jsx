@@ -12,26 +12,26 @@ const customColors = {
 	grey: '#333',
 	greyDark: '#1f1f1f',
 	blackOff: '#141414',
-	white: '#fff'
+	white: '#fff',
 };
 
 const customTheme = createTheme({
 	palette: {
 		custom: {
-			...customColors
+			...customColors,
 		},
 		primary: {
-			main: '#c5f82a'
+			main: '#c5f82a',
 		},
 		secondary: {
-			main: '#fff'
-		}
+			main: '#fff',
+		},
 	},
 	typography: {
 		fontFamily: 'Inter, sans-serif',
 		body1: {
-			fontSize: '0.875rem'
-		}
+			fontSize: '0.875rem',
+		},
 	},
 	components: {
 		MuiCssBaseline: {
@@ -44,16 +44,16 @@ const customTheme = createTheme({
 					WebkitFontSmoothing: 'antialiased',
 					textRendering: 'optimizeSpeed',
 					color: customColors.white,
-					lineHeight: 1.4
-				}
-			}
+					lineHeight: 1.4,
+				},
+			},
 		},
 		MuiTypography: {
 			styleOverrides: {
-				h1: {}
-			}
-		}
-	}
+				h1: {},
+			},
+		},
+	},
 });
 
 // const customTheme = extendTheme({
@@ -102,14 +102,14 @@ function App() {
 			<CssBaseline />
 
 			<Header />
-			<Stack component='main' direction='row' sx={{ flex: 'auto' }}>
+			<Stack component="main" direction="row" sx={{ flex: 'auto' }}>
 				<Stack
-					direction='row'
+					direction="row"
 					sx={{
 						flex: 'auto',
 						justifyContent: 'center',
 						alignItems: 'center',
-						padding: '0 1rem'
+						padding: '0 1rem',
 					}}
 				>
 					<Profile />

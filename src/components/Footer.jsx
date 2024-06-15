@@ -5,44 +5,44 @@ import Stack from '@mui/material/Stack';
 export default function Footer() {
 	return (
 		<Stack
-			component='footer'
+			component="footer"
 			sx={{
 				position: 'absolute',
 				left: 0,
 				bottom: 0,
 				width: '100%',
 				padding: '0.75rem 0',
-				textAlign: 'center'
+				textAlign: 'center',
 			}}
 		>
 			<Stack sx={{ padding: '0 1rem' }}>
 				<Typography sx={{ fontSize: '0.75rem' }}>
 					Challenge by{' '}
 					<Link
-						href='https://www.frontendmentor.io?ref=challenge'
-						underline='none'
-						rel='noopener'
-						target='_blank'
+						href="https://www.frontendmentor.io?ref=challenge"
+						underline="none"
+						rel="noopener"
+						target="_blank"
 						sx={{
 							color: 'custom.green',
 							':hover': {
-								color: 'custom.greenDark'
-							}
+								color: 'custom.greenDark',
+							},
 						}}
 					>
 						Frontend Mentor
 					</Link>
 					. Coded by{' '}
 					<Link
-						href='https://github.com/al3xback'
-						underline='none'
-						rel='noopener'
-						target='_blank'
+						href="https://github.com/al3xback"
+						underline="none"
+						rel="noopener"
+						target="_blank"
 						sx={{
 							color: 'custom.green',
 							':hover': {
-								color: 'custom.greenDark'
-							}
+								color: 'custom.greenDark',
+							},
 						}}
 					>
 						al3xback

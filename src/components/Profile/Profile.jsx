@@ -21,9 +21,9 @@ export default function Profile() {
 				margin: '2.5rem 0 3.75rem',
 				borderRadius: '12px',
 				'@media (min-width: 48em)': {
-					maxWidth: '22.125rem'
+					maxWidth: '22.125rem',
 				},
-				color: 'inherit'
+				color: 'inherit',
 			}}
 		>
 			<CardContent
@@ -34,8 +34,8 @@ export default function Profile() {
 					gap: '1.5rem',
 					padding: '1.5rem !important',
 					'@media (min-width: 48em)': {
-						padding: '2.25rem !important'
-					}
+						padding: '2.25rem !important',
+					},
 				}}
 			>
 				<img
@@ -43,15 +43,15 @@ export default function Profile() {
 					className={styles.image}
 					width={80}
 					height={80}
-					alt='Jessica Randall'
+					alt="Jessica Randall"
 				/>
-				<Stack spacing='0.375rem' sx={{ textAlign: 'center' }}>
+				<Stack spacing="0.375rem" sx={{ textAlign: 'center' }}>
 					<Typography
-						variant='h2'
+						variant="h2"
 						sx={{
 							fontSize: '1.5rem',
 							fontWeight: 600,
-							letterSpacing: 'normal'
+							letterSpacing: 'normal',
 						}}
 					>
 						Jessica Randall
@@ -59,7 +59,7 @@ export default function Profile() {
 					<Typography
 						sx={{
 							fontWeight: 700,
-							color: 'custom.green'
+							color: 'custom.green',
 						}}
 					>
 						London, United Kingdom
@@ -74,7 +74,7 @@ export default function Profile() {
 						flexDirection: 'column',
 						alignSelf: 'normal',
 						gap: '1rem',
-						padding: 0
+						padding: 0,
 					}}
 				>
 					{[
@@ -82,19 +82,19 @@ export default function Profile() {
 						'Frontend Mentor',
 						'LinkedIn',
 						'Twitter',
-						'Instagram'
+						'Instagram',
 					].map((item) => (
 						<ListItem
 							key={item}
 							sx={{
 								flexDirection: 'column',
 								alignItems: 'normal',
-								padding: 0
+								padding: 0,
 							}}
 						>
 							<Link
-								href='#'
-								underline='none'
+								href="#"
+								underline="none"
 								sx={{
 									p: '0.75rem',
 									bgcolor: 'custom.grey',
@@ -104,11 +104,11 @@ export default function Profile() {
 									textAlign: 'center',
 									':hover': {
 										bgcolor: 'custom.green',
-										color: 'custom.blackOff'
+										color: 'custom.blackOff',
 									},
 									':active': {
-										bgcolor: 'custom.greenDark'
-									}
+										bgcolor: 'custom.greenDark',
+									},
 								}}
 							>
 								{item}
